@@ -1,0 +1,4 @@
+#!/bin/bash
+
+bin/lint
+./node_modules/.bin/mocha

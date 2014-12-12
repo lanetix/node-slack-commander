@@ -1,4 +1,4 @@
-node-lanetix-slack-commander
+node-slack-commander
 ============================
 
-lanetix-slack-commander
+slack-commander
