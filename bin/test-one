@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# This script allows you to run a subset of our test suite
+#
+# Examples of passing path to file(s):
+# test/db/models/layout*.js
+# test/routes/inbox_activties.js
+
+if [ -z "$1" ]
+  then
+    echo "ERROR: MISSING PATH TO TEST FILE"
+    exit 1
+fi
+
+echo "running tests for $1..."
+./node_modules/.bin/mocha $1
