@@ -2,8 +2,8 @@
   'use strict';
 
   module.exports = {
-    router: require('./router'),
-    messenger: require('./messenger')
+    router: require('./lib/router'),
+    messenger: require('./lib/messenger')
   };
 
 }());
